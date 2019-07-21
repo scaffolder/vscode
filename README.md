@@ -1,3 +1,3 @@
 # VS Code extension for Scaffolder
 
-Coming soon
+Coming soon...
