@@ -1,12 +1,20 @@
-.PHONY: show-releases check-tags create-release sync-origin push-branches push-tags 
+.PHONY: login show-releases package  publish check-tags patch sync-origin push-branches push-tags
+
+login:
+	vsce login
 
 show-releases:
 	@echo "List of all release numbers:"
 	git tag
-	
 
+package:
+	vsce package
+
+publish:
+	vsce publish
+	
 check-tags:
-	@read -p "Enter Environemtn to provision: " ENVIRONMENT; \
+	@read -p "Enter Environment to provision: " ENVIRONMENT; \
 	$$ENVIRONMENT provision
 
 patch:
