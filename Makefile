@@ -20,7 +20,6 @@ check-tags:
 patch:
 	echo "Patching vscode plugin"
 	
-
 sync-origin:
 	git push origin --all
 	git push origin --tag
