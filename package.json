@@ -1,9 +1,10 @@
 {
 	"name": "scaffolder",
 	"displayName": "Scaffolder CLI",
-	"description": "The future of apps development.",
+	"description": "Interactive shell for modeling projects, applications and microservices, based on the rules of Scaffolder DSL. ",
+	"icon": "logo-big.png",
 	"publisher": "scaffolder",
-	"version": "0.1.1",
+	"version": "0.1.5",
 	"preview": true,
 	"author": {
     "name": "Goran Angelkovski"
@@ -16,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/scaffolder/vscode.git"
   },
-  "homepage": "https://scaffolder.sh",
+  "homepage": "https://scaffolder.dev",
 	"bugs": {
 		"url": "https://github.com/scaffolder/vscode/issues",
 		"email": "goran@scaffolder.io"
